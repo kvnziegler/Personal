@@ -1,0 +1,184 @@
+/*all pages*/
+.foot {
+    text-align: center;
+    position:relative;
+    width:100%;
+    bottom:0px;
+    background-color: lightgray;
+    margin-top:4px;
+}
+
+.nav {
+    background-color: lightgray;
+    float:left;
+    height: 100%;
+    position: fixed;
+}
+
+.foot1 {
+    text-align: center;
+    position:relative;
+    width:100%;
+    bottom:0px;
+    background-color:lightgray;
+    margin-top:4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color:purple;
+    text-decoration: underline;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/*home page*/
+
+#img{
+    height: 400px;
+    width:250px;
+    margin-left:;
+    margin-top: 50px;
+    margin-bottom:30px;
+    border-radius:10%;
+}
+
+#p1{
+    text-align: center;
+    margin-left:22%;
+}
+
+table{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    width:400px;
+    height:300px;
+    margin-top:50px;
+    text-align: center;
+    margin-left:;
+}
+
+th{
+    border: black solid 1px; 
+}
+
+td{
+     border: black solid 1px;
+}
+/*function page*/
+
+#name2{
+    margin-left:;
+}
+
+#clickme{
+    margin-top:10px;
+}
+
+.button2{
+    margin-left:;
+}
+
+.class{
+    margin-left;
+}
+
+.aeo{
+    margin-left:;
+}
+
+.aeob{
+    margin-left:;
+    margin-top:10px;
+}
+
+/*conact page*/
+
+#op {
+    margin-top:80px;
+     background-color:white;
+}
+
+#name{
+    margin-bottom:20px;
+    margin-top:100px;
+}
+
+#email{
+    margin-bottom:20px;
+     background-color:white;
+}
+
+#number{
+    margin-bottom:20px;
+     background-color:white;
+}
+
+#text{
+    margin-bottom:20px;
+}
+
+#check{
+    background-color:white;
+}
+#box{
+    margin-bottom:20px;
+}
+#button{
+    margin-bottom:20px;
+}
+
+#reset{
+}
+
+.Cbod{
+    background: url(../images/contact_us.jpg);
+    background-size: 1300px 650px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+/*Video page*/
+
+#Video1{
+    
+    margin-top: 10px;
+}
+
+#controls{
+    margin-left:;
+    margin-top:40px;
+}
+
+#playback{
+    margin-left:;
+}
+
+#volume{
+    margin-left:;
+}
+
+#inputField{
+    margin-left:;
+    margin-top:10px;
+}
+
+#errorMsg{
+    margin-left:;
+    margin-top:40px;
+}
+
+#cont {
+   margin-top:40px;
+    text-align: center;
+}

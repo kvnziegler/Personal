@@ -1,0 +1,94 @@
+ <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" type="text/css" href="sample2.css">
+        <title>Functions!</title>
+    </head>
+    <body>
+        
+            <ul class="nav nav-tabs">
+                <li><a href="sample2.html"><span class="glyphicon glyphicon-home"></span> Home</a></li><br/>
+                <li><a href="sample2p2.html"><span class="glyphicon glyphicon-modal-window"> Functions</span></a></li><br/>
+                <li><a href="sample2p4.html"><span class="glyphicon glyphicon-expand"> Video</span></a></li><br/>
+                <li><a href="sample2p3.html"><span class="glyphicon glyphicon-inbox"></span> Message Me!</a></li>
+            </ul>
+        <div class="container">
+            <hr/>
+            <div id="name2" class="col-md-offset-5 col-xs-6 col-xs-offset-4">
+                Name: <input id="1" type="text">
+            </div>
+            <br/>
+            <input id="clickMe" class="col-md-offset-6 col-sm-offset-5 col-xs-offset-5" type="button" value="clickme" onclick="practice();return false;" />
+            <p id="sample" class="col-md-offset-5 col-sm-offset-5 col-xs-offset-5"></p>
+            <hr/>
+            <div>
+                <center class="col-xs-6 col-xs-offset-4">Addition</center><br/>
+                <div id="add" class="button2">
+                    <input id="x" class="col-md-offset-5 col-sm-offset-5 col-xs-offset-5" type="number"> +
+                    <input id="y" class="col-md-offset-0 col-sm-offset-0 col-xs-offset-5" type="number">
+                    <p id="a" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4"></p>
+                </div>
+                <input id="button2" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="button" value="Solve" onclick="idk();return false;">
+                <hr/>
+                <center class="col-xs-6 col-xs-offset-4">Subtraction</center><br/>
+                <div id="sub" class="col-md-offset-5 col-sm-offset-5 col-xs-offset-5">
+                    <input id="e1" type="number"> -
+                    <input id="f1" type="number">
+                    <p id="b1" class"col-md-offset-5 col-sm-offset-4 col-xs-offset-4"></p>
+                </div>
+                <input id="button3" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="button" value="Solve" onclick="subkev(); return false">
+                <hr/>
+                <center class="col-xs-6 col-xs-offset-4">Multiplication</center><br/>
+                <div id="mult" class="col-md-offset-5 col-sm-offset-5 col-xs-offset-5">
+                    <input id="g" type="number"> *
+                    <input id="h" type="number">
+                    <p id="c" class"col-md-offset-5 col-sm-offset-4 col-xs-offset-4"></p>
+                </div>
+                <input id="button4" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="button" value="Solve" onclick="b();return false;">
+                <hr/>
+                <center class="col-xs-6 col-xs-offset-4">Division</center><br/>
+                <div id="Div" class="col-md-offset-5 col-sm-offset-5 col-xs-offset-5">
+                    <input id="i" type="number">/ 
+                    <input id="j" type="number">
+                    <p id="d" class"col-md-offset-5 col-sm-offset-4 col-xs-offset-4"></p>
+                </div>
+                <input id="button5" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="button" value="Solve" onclick="c();return false;">
+                <hr/>
+            </div>
+            <div>
+                <center class="col-xs-6 col-xs-offset-4">All numbers in between:</center><br/>
+                <input id="k" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="number">
+                <input id="l" class="col-md-offset-0 col-sm-offset-0 col-xs-offset-4" type="number"><br/>
+                <p id="m" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4"></p>
+                <input id="ac" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="button" value="go" onclick="fun();return false;"/>
+                <hr/>
+                <center class="col-xs-6 col-xs-offset-4">All even numbers in between:</center><br/>
+                <input id="n" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="number">
+                <input id="o" class="col-md-offset-0 col-sm-offset-0 col-xs-offset-4"  type="number"><br/>
+                <p id="p" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4"></p>
+                <input id="e3" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="button" value="go" onclick="even();return false;"/>
+               <hr/>
+                <center class="col-xs-6 col-xs-offset-4">All odd numbers in between:</center><br/>
+                <input id="q" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="number">
+                <input id="r" class="col-md-offset-0 col-sm-offset-0 col-xs-offset-4" type="number"><br/>
+                <p id="s" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4"></p>
+                <input id="o3" class="col-md-offset-5 col-sm-offset-4 col-xs-offset-4" type="button" value="go" onclick="what();return false;"/>
+                <hr/>
+            </div>
+            <p>
+               <center class="col-md-offset-0 col-sm-offset-0 col-xs-offset-4"> Now try <a href="../audition/sample.html">something</a> else!</center>
+            </p>
+            </div>
+            <hr/>
+        <footer class="foot1">
+            <br/>
+                 Name, address, <a href="sample2p3.html"> Conact Us</a>,<br/><a href="http://www.google.com">More information</a>
+           <br/><br/>
+            </footer>
+        <script type="text/javascript" src="sample2.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>

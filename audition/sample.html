@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sample.css">
+    <title>Sample</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Sample</h2>
+      <br/>
+      <div>
+        <form>
+            <div id="start">
+              Starting Number :
+              <input id="1" type="number" name="start1" required>
+            </div>
+            <br/><br/>
+            <div id="end">
+              Ending Number : 
+              <input id="2" type="number" name="end2" required>
+            </div>
+            <br/><br/>
+            <div id="step">
+              Step : 
+              <input id="3" type="number" name="step3"  required>
+            </div>
+            <br/><br/>
+            <button id="button" onclick="myFunction();return false;">Display Evens</button>
+        </form>
+      </div>
+      <p id="et">Here are the even numbers between <i id="xval">(starting number)</i> and 
+          <i id="yval">(ending number)</i> by <i id="zval">(step)</i>'s</p>
+      <p id="sample"></p>
+      
+      <script type="text/javascript" src="sample.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>

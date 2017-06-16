@@ -1,0 +1,45 @@
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Kumar One', cursive;
+}
+
+#p1 {
+    text-align: center;
+}
+
+img {
+   display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table{
+    margin-left: 41%;
+    margin-right: 15%;
+    background-color: #e0e0eb
+}
+
+th{
+    background-color: #808080
+}
+
+ul {
+    font-style: italic;
+}
+
+td, th {
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: yellow;
+    text-decoration: underline; 
+}
