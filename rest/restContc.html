@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="restStyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <title>Contact</title>
+  </head>
+  <body>
+      <h1 id="name">Resturant Name</h1>
+       <!-- menu bar-->
+    <div id="link">
+        <hr/>
+        <ul class="nav nav-tabs">
+            <li><a href="restHome.html">Home <span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="restMenu.html">Menu <span class="glyphicon glyphicon-glass"></span></a></li>
+            <li class="active"><a href="restContc.html">Contact Us <span class="glyphicon glyphicon-envelope"></a></li>
+      </ul>
+        <hr/>
+    </div>
+    <div>
+        <form action="#">
+            <b>Name:</b> <input type="text" name="firstname" required><br/>
+            <br/>
+            <b>Email:</b> <input type="text" name="email" required><br/>
+            <br/>
+            Phone <input type="text" name="phone"><br/>
+            <br/>
+            <b>Reason for Inquiry:</b>
+                <select required>
+                <option value="catering">Catering</option>
+                <option value="privateParty">Private Party</option>
+                <option value="feeback">Feedback</option>
+                <option value="other">Other</option>
+                </select>
+            <br/><br/>
+            <b>Additional Information:<b><br/>
+            <textarea required></textarea>
+            <br/><br/>
+            Have you been to the resturant?
+            <input type="radio" name="yes" value="yes" checked> Yes
+            <input type="radio" name="no" value="no"> No<br/>
+            <br/>
+            What are the best days to contact you?<br/>
+            <input type="checkbox" name="S" value="S"> S
+            <input type="checkbox" name="M" value="M"> M 
+            <input type="checkbox" name="T" value="T"> T
+            <input type="checkbox" name="W" value="W"> W
+            <input type="checkbox" name="Th" value="Th"> Th
+            <input type="checkbox" name="F" value="F"> F
+            <input type="checkbox" name="S" value="S">S<br/> 
+            <br/>
+            <input id="sub"type="submit" value="Submit">
+        </form>
+    </div>
+  <footer>
+      <hr/>
+    Street, City, State, Zip Code<br/>
+    (555)555-5555
+    <hr/>
+  </footer>
+  </body>
+</html>
